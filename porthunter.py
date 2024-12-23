@@ -19,8 +19,6 @@ def scan_ports(host, start_port, end_port):
 
     return open_ports
 
-
-# Example usage
 if __name__ == "__main__":
     host = input("Enter the IP address or domain name: ")
     start_port = int(input("Enter the starting port: "))
